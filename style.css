@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Slabo+27px&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-body{}
-
+body{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
 /*container css area*/
 .container{
     max-width: 1170px;
@@ -25,7 +37,6 @@ body{}
 .logo h2{
     color: black;
     padding: 10px;
-    font-family: cursive;
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -45,15 +56,17 @@ body{}
     padding-bottom: 35px;
 }
 .menu-bar ul li a{
-    font-size: 24px;
-    padding: 13px 23px;
+    font-size: 20px;
+    padding: 10px 20px;
     text-decoration: none;
-    background: black;
-    color: blanchedalmond;
+    background: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 .menu-bar ul li a:hover{
     background: white;
     color: black;
+    /* border: 1px solid #000000; */
 }
 /*header css area ends here*/
 
@@ -73,13 +86,13 @@ body{}
 .content h2{
     text-transform: uppercase;
     font-size: 40px;
-    color: black;
-    font-family: cursive;
+    color: #000000;
+    margin-bottom: 40px;
+    line-height: 50px;
 }
 .content p{
-    font-size: 25px;
-    margin-top: 40px;
-    padding: 20px  ;
+    padding: 20px 20px;
+
 }
 /*Secound section area ends here*/
 
@@ -87,7 +100,8 @@ body{}
 #third-section{
     height: 100%;
     padding: 20px;
-    background-color: #131F72;
+    background-color: #E8E7E8;
+    color: #000000;
 }
 .third-top{
     padding: 40px 0;
@@ -95,12 +109,10 @@ body{}
 }
 .third-top h2{
     font-size: 40px;
-    color: #FFFFFF;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 .third-top p{
-    font-size: 25px;
-    color: #DEDEDE;
     padding: 20px 0;
 }
 .third-content{}
@@ -114,21 +126,18 @@ body{}
 }
 .third-main-contenet h2{
     font-size: 35px;
-    color: #FFFFFF;
     text-transform: uppercase;
     padding: 2px;
 }
 .third-main-contenet p{
-    font-size: 15px;
-    color: #DEDEDE;
-    padding: 20px;
+    padding: 20px 10px;
 }
 /*third-section css area ends here*/
 
 
 /*fourth-section area*/
  .fourth-section{
-    height: 100vh;
+    height: 100%;
     background-color: #007ACC;
     color: #ffffff;
     padding: 20px;
@@ -143,14 +152,13 @@ body{}
     margin-bottom: 20px;
  }
  .fourth-top p{
-     font-size: 20px;
      padding-bottom: 40px;
  }
- .fourth-content{}
  .fourth{
      max-width: 25%;
      text-align: center;
      float: left;
+     /* padding: 5px; */
  }
  .fourth img{
      border-radius: 10%;
@@ -161,8 +169,6 @@ body{}
      padding: 5px;
  }
  .fourth p{
-     font-size: 15px;
-     text-transform: uppercase;
  }
  /*fourth-section area ends here*/
 
